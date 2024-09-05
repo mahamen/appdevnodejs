@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <header>
+        <h1>Student Details</h1>
+        <nav>
+        </nav>
+    </header>
+    <main>
+        <h2><%= student.name %></h2>
+        <p><strong>Age:</strong> <%= student.age %></p>
+        <p><strong>Course:</strong> <%= student.course %></p>
+    </main>
+    <%- include('partials/footer') %>
+</body>
+</html>
